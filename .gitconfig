@@ -1,0 +1,7 @@
+[user]
+	name = Matthias Pirstitz
+	email = matp@matp.at
+[diff]
+	tool = customvim
+[difftool "customvim"]
+	cmd = vim -R -f -d \"$LOCAL\" \"$REMOTE\"
